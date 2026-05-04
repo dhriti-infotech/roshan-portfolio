@@ -478,6 +478,197 @@ footer{
 .footer-brand{font-weight:800;font-size:1.1rem;color:var(--white);letter-spacing:-0.02em}
 .footer-brand span{color:var(--yellow)}
 .footer-copy{font-family:'DM Mono',monospace;font-size:0.65rem;color:#555;letter-spacing:0.05em}
+
+/* ===== MOBILE RESPONSIVE ===== */
+@media (max-width:768px){
+  nav{
+    padding:0.75rem 1.5rem;
+  }
+  .nav-avatar{
+    width:28px;height:28px;
+  }
+  .nav-links{
+    gap:1rem;
+  }
+  .nav-links a{
+    font-size:0.75rem;
+  }
+  .nav-cta{
+    padding:0.4rem 1rem;font-size:0.75rem;
+  }
+  
+  .hero{
+    grid-template-columns:1fr;
+    padding:7rem 1.5rem 3rem;
+    gap:2.5rem;
+  }
+  .hero-right{
+    order:-1;
+    margin-top:-2rem;
+  }
+  .hero-photo-wrap{
+    width:280px;height:320px;
+  }
+  h1{
+    font-size:clamp(1.8rem,5vw,2.4rem);
+  }
+  .hero-desc{
+    font-size:0.88rem;
+  }
+  .hero-btns{
+    gap:0.75rem;
+  }
+  .btn-hire,.btn-portfolio{
+    padding:0.65rem 1.5rem;
+    font-size:0.82rem;
+  }
+  
+  .float-card{
+    padding:0.6rem 0.85rem;
+    font-size:0.7rem;
+  }
+  .float-card.avail{
+    left:-0.5rem;
+    top:0.5rem;
+  }
+  .float-card.loc{
+    right:0;
+    top:0.5rem;
+  }
+  .float-card.award{
+    bottom:2rem;
+    right:0;
+  }
+  
+  .stats-bar{
+    grid-template-columns:1fr;
+  }
+  .stat-item{
+    padding:2rem 1.5rem;
+    border-right:none;
+    border-bottom:1px solid rgba(255,255,255,0.08);
+  }
+  .stat-item:last-child{
+    border-bottom:none;
+  }
+  .stat-big{
+    font-size:2rem;
+  }
+  .stat-big span{
+    font-size:1.5rem;
+  }
+  
+  .section{
+    padding:3rem 1.5rem;
+  }
+  .about-grid{
+    grid-template-columns:1fr;
+    gap:2rem;
+  }
+  h2{
+    font-size:clamp(1.4rem,4vw,2rem);
+  }
+  .contact-section{
+    padding:4rem 1.5rem;
+  }
+  
+  .skills-grid{
+    grid-template-columns:1fr;
+  }
+  .exp-grid{
+    grid-template-columns:1fr;
+  }
+  .projects-grid{
+    grid-template-columns:1fr;
+  }
+  .edu-grid{
+    grid-template-columns:1fr;
+  }
+  
+  footer{
+    flex-direction:column;
+    gap:0.75rem;
+    padding:1.5rem;
+  }
+}
+
+@media (max-width:480px){
+  nav{
+    padding:0.6rem 1rem;
+  }
+  .nav-avatar{
+    width:24px;height:24px;
+    font-size:0.7rem;
+  }
+  .nav-links{
+    gap:0.8rem;
+  }
+  .nav-links a{
+    font-size:0.7rem;
+  }
+  .nav-cta{
+    padding:0.35rem 0.9rem;
+    font-size:0.7rem;
+  }
+  
+  .hero{
+    padding:6rem 1rem 2rem;
+    gap:1.5rem;
+  }
+  .hero-photo-wrap{
+    width:240px;height:280px;
+  }
+  h1{
+    font-size:clamp(1.4rem,4vw,1.8rem);
+  }
+  .hero-desc{
+    font-size:0.82rem;
+  }
+  .hi-badge{
+    font-size:0.7rem;
+    padding:0.3rem 0.8rem;
+  }
+  .btn-hire,.btn-portfolio{
+    padding:0.55rem 1.2rem;
+    font-size:0.75rem;
+    width:100%;
+    justify-content:center;
+  }
+  .hero-btns{
+    flex-direction:column;
+    width:100%;
+  }
+  
+  .float-card{
+    padding:0.5rem 0.75rem;
+    font-size:0.65rem;
+    display:none;
+  }
+  
+  .stat-big{
+    font-size:1.6rem;
+  }
+  .stat-big span{
+    font-size:1.2rem;
+  }
+  .stat-desc{
+    font-size:0.75rem;
+  }
+  
+  .section{
+    padding:2.5rem 1rem;
+  }
+  h2{
+    font-size:clamp(1.2rem,3.5vw,1.6rem);
+  }
+  .label{
+    font-size:0.6rem;
+  }
+  
+  .contact-section{
+    padding:3rem 1rem;
+  }
+}
 </style>
 </head>
 <body>
